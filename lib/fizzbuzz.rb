@@ -46,15 +46,15 @@ def createFizzbuzzSeq()
   sequential = []
   # store all numbers fizz's, buzz's and fizzbuzz's in an array.
   for i in 1..100
-    if i % 3 == 0
+    if i % 15 == 0
       # others << i
-      sequential << 'Fizz'
+      sequential << 'FizzBuzz'
     elsif i % 5 == 0
       # others << i
       sequential << 'Buzz'
-    elsif i % 15 == 0
+    elsif i % 3 == 0
       # others << i
-      sequential << 'FizzBuzz'
+      sequential << 'Fizz'
     else
       sequential << i
     end

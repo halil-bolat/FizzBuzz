@@ -21,6 +21,7 @@ describe 'Fizzbuzz test' do
     array = @calc.createFizzbuzzSeq
     expect(array[2]).to eq "Fizz"
     expect(array[0]).to eq 1
+    expect(array[14]).to eq "FizzBuzz"
   end
 
 
